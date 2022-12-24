@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select program\n 1.PowerOf2");
+            Console.WriteLine("Select program\n 1.HarmonicNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    PowerOf2 powerOf2  = new PowerOf2();
-                    powerOf2.Read();
+                    HarmonicNumber harmonicNumber  = new HarmonicNumber();
+                    harmonicNumber.Number();
                     break;
             }
         }
