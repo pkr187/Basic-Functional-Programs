@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select program\n 1.SwapNumber");
+            Console.WriteLine("Select program\n 1.QuotientRemainder");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    SwapNumber swapNumbers = new SwapNumber();
-                    swapNumbers.Swap();
+                    QuotientRemainder quotientRemainder = new QuotientRemainder();
+                    quotientRemainder.QuoRem();
                     break;
             }
         }
