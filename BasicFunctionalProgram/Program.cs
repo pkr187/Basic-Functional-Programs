@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select program\n 1.QuotientRemainder");
+            Console.WriteLine("Select program\n 1VowelConsonant");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    QuotientRemainder quotientRemainder = new QuotientRemainder();
-                    quotientRemainder.QuoRem();
+                    VowelConsonant vowelConsonant = new VowelConsonant();
+                    vowelConsonant.Alphabet();
                     break;
             }
         }
