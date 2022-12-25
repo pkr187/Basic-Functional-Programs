@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select program\n 1.Factors");
+            Console.WriteLine("Select program\n 1.OddEvenNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    Factors factors = new Factors();
-                    factors.Fact();
+                    OddEvenNumber oddEvenNumber = new OddEvenNumber();
+                    oddEvenNumber.Read();
                     break;
             }
         }
