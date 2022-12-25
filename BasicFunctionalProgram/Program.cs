@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select program\n 1.LargestNumber");
+            Console.WriteLine("Select program\n 1.SwapNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    LargestNumber num = new LargestNumber();
-                    num.Read();
+                    SwapNumber swapNumbers = new SwapNumber();
+                    swapNumbers.Swap();
                     break;
             }
         }
